@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "browsrlib",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aadisss/BrowsrLib",
+      "state" : {
+        "branch" : "main",
+        "revision" : "923a442872ae98881311e834ae4c05321f39a77b"
+      }
+    }
+  ],
+  "version" : 2
+}

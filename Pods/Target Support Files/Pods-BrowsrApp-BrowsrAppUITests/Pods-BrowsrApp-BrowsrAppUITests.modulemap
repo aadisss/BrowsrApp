@@ -1,0 +1,6 @@
+framework module Pods_BrowsrApp_BrowsrAppUITests {
+  umbrella header "Pods-BrowsrApp-BrowsrAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

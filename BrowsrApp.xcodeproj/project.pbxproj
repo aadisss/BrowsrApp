@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39F5DB9DF9FC30E185C2B33B /* Pods_BrowsrApp_BrowsrAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D08AB44BB62C074B1D60FB /* Pods_BrowsrApp_BrowsrAppUITests.framework */; };
 		620915B029919D5500EBA3A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620915AF29919D5500EBA3A8 /* AppDelegate.swift */; };
-		620915B229919D5500EBA3A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620915B129919D5500EBA3A8 /* SceneDelegate.swift */; };
 		620915B429919D5500EBA3A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620915B329919D5500EBA3A8 /* ViewController.swift */; };
 		620915B729919D5500EBA3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620915B529919D5500EBA3A8 /* Main.storyboard */; };
 		620915B929919D5700EBA3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620915B829919D5700EBA3A8 /* Assets.xcassets */; };
@@ -16,6 +16,10 @@
 		620915C729919D5700EBA3A8 /* BrowsrAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620915C629919D5700EBA3A8 /* BrowsrAppTests.swift */; };
 		620915D129919D5700EBA3A8 /* BrowsrAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620915D029919D5700EBA3A8 /* BrowsrAppUITests.swift */; };
 		620915D329919D5700EBA3A8 /* BrowsrAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620915D229919D5700EBA3A8 /* BrowsrAppUITestsLaunchTests.swift */; };
+		620915E12991AF0500EBA3A8 /* BrowsrLib in Frameworks */ = {isa = PBXBuildFile; productRef = 620915E02991AF0500EBA3A8 /* BrowsrLib */; };
+		620915E32991B66300EBA3A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620915E22991B66300EBA3A8 /* SceneDelegate.swift */; };
+		6FD06B1A8EC56C7DCA39409F /* Pods_BrowsrApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E649B45CF6EF9613F2145FE /* Pods_BrowsrApp.framework */; };
+		E2735F8FE33F524977A243F4 /* Pods_BrowsrAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B7134508776982C5D3442 /* Pods_BrowsrAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003B7134508776982C5D3442 /* Pods_BrowsrAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrowsrAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E649B45CF6EF9613F2145FE /* Pods_BrowsrApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrowsrApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		509E77AEEBEABB9EE33F0EFD /* Pods-BrowsrAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowsrAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BrowsrAppTests/Pods-BrowsrAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B7D75E7C25620042237AF29 /* Pods-BrowsrApp-BrowsrAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowsrApp-BrowsrAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BrowsrApp-BrowsrAppUITests/Pods-BrowsrApp-BrowsrAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		620915AC29919D5500EBA3A8 /* BrowsrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowsrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		620915AF29919D5500EBA3A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		620915B129919D5500EBA3A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		620915B329919D5500EBA3A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		620915B629919D5500EBA3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		620915B829919D5700EBA3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +56,12 @@
 		620915CC29919D5700EBA3A8 /* BrowsrAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowsrAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		620915D029919D5700EBA3A8 /* BrowsrAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsrAppUITests.swift; sourceTree = "<group>"; };
 		620915D229919D5700EBA3A8 /* BrowsrAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowsrAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		620915E22991B66300EBA3A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../.Trash/SceneDelegate.swift; sourceTree = "<group>"; };
+		82FFB04AE1A89FC8BDA09D23 /* Pods-BrowsrApp-BrowsrAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowsrApp-BrowsrAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BrowsrApp-BrowsrAppUITests/Pods-BrowsrApp-BrowsrAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F30D60084EFE9C82A508775 /* Pods-BrowsrApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowsrApp.release.xcconfig"; path = "Target Support Files/Pods-BrowsrApp/Pods-BrowsrApp.release.xcconfig"; sourceTree = "<group>"; };
+		8FBF2EB076AD9DB0F93AA2E8 /* Pods-BrowsrApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowsrApp.debug.xcconfig"; path = "Target Support Files/Pods-BrowsrApp/Pods-BrowsrApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D3D08AB44BB62C074B1D60FB /* Pods_BrowsrApp_BrowsrAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrowsrApp_BrowsrAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D3FF0DEE83F9916A21B60C /* Pods-BrowsrAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrowsrAppTests.release.xcconfig"; path = "Target Support Files/Pods-BrowsrAppTests/Pods-BrowsrAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620915E12991AF0500EBA3A8 /* BrowsrLib in Frameworks */,
+				6FD06B1A8EC56C7DCA39409F /* Pods_BrowsrApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2735F8FE33F524977A243F4 /* Pods_BrowsrAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F5DB9DF9FC30E185C2B33B /* Pods_BrowsrApp_BrowsrAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				620915C529919D5700EBA3A8 /* BrowsrAppTests */,
 				620915CF29919D5700EBA3A8 /* BrowsrAppUITests */,
 				620915AD29919D5500EBA3A8 /* Products */,
+				F2E5A78E6E6DE6AEC4910DC6 /* Pods */,
+				E108B0F014B830040B5E183F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +118,8 @@
 		620915AE29919D5500EBA3A8 /* BrowsrApp */ = {
 			isa = PBXGroup;
 			children = (
+				620915E22991B66300EBA3A8 /* SceneDelegate.swift */,
 				620915AF29919D5500EBA3A8 /* AppDelegate.swift */,
-				620915B129919D5500EBA3A8 /* SceneDelegate.swift */,
 				620915B329919D5500EBA3A8 /* ViewController.swift */,
 				620915B529919D5500EBA3A8 /* Main.storyboard */,
 				620915B829919D5700EBA3A8 /* Assets.xcassets */,
@@ -127,6 +146,29 @@
 			path = BrowsrAppUITests;
 			sourceTree = "<group>";
 		};
+		E108B0F014B830040B5E183F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E649B45CF6EF9613F2145FE /* Pods_BrowsrApp.framework */,
+				D3D08AB44BB62C074B1D60FB /* Pods_BrowsrApp_BrowsrAppUITests.framework */,
+				003B7134508776982C5D3442 /* Pods_BrowsrAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2E5A78E6E6DE6AEC4910DC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FBF2EB076AD9DB0F93AA2E8 /* Pods-BrowsrApp.debug.xcconfig */,
+				8F30D60084EFE9C82A508775 /* Pods-BrowsrApp.release.xcconfig */,
+				82FFB04AE1A89FC8BDA09D23 /* Pods-BrowsrApp-BrowsrAppUITests.debug.xcconfig */,
+				5B7D75E7C25620042237AF29 /* Pods-BrowsrApp-BrowsrAppUITests.release.xcconfig */,
+				509E77AEEBEABB9EE33F0EFD /* Pods-BrowsrAppTests.debug.xcconfig */,
+				F9D3FF0DEE83F9916A21B60C /* Pods-BrowsrAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +176,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 620915D629919D5700EBA3A8 /* Build configuration list for PBXNativeTarget "BrowsrApp" */;
 			buildPhases = (
+				3687D168DD0E0FAAF44F6995 /* [CP] Check Pods Manifest.lock */,
 				620915A829919D5500EBA3A8 /* Sources */,
 				620915A929919D5500EBA3A8 /* Frameworks */,
 				620915AA29919D5500EBA3A8 /* Resources */,
+				B50302BAF8E8EC67D8389A98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BrowsrApp;
+			packageProductDependencies = (
+				620915E02991AF0500EBA3A8 /* BrowsrLib */,
+			);
 			productName = BrowsrApp;
 			productReference = 620915AC29919D5500EBA3A8 /* BrowsrApp.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 620915D929919D5700EBA3A8 /* Build configuration list for PBXNativeTarget "BrowsrAppTests" */;
 			buildPhases = (
+				C7F2EA1E4C08B71B40BAB8D1 /* [CP] Check Pods Manifest.lock */,
 				620915BE29919D5700EBA3A8 /* Sources */,
 				620915BF29919D5700EBA3A8 /* Frameworks */,
 				620915C029919D5700EBA3A8 /* Resources */,
@@ -169,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 620915DC29919D5700EBA3A8 /* Build configuration list for PBXNativeTarget "BrowsrAppUITests" */;
 			buildPhases = (
+				89893999AAEA407630DFA6A2 /* [CP] Check Pods Manifest.lock */,
 				620915C829919D5700EBA3A8 /* Sources */,
 				620915C929919D5700EBA3A8 /* Frameworks */,
 				620915CA29919D5700EBA3A8 /* Resources */,
+				34115371A1479116404AB404 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +265,9 @@
 				Base,
 			);
 			mainGroup = 620915A329919D5400EBA3A8;
+			packageReferences = (
+				620915DF2991AF0500EBA3A8 /* XCRemoteSwiftPackageReference "BrowsrLib" */,
+			);
 			productRefGroup = 620915AD29919D5500EBA3A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,6 +306,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34115371A1479116404AB404 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrowsrApp-BrowsrAppUITests/Pods-BrowsrApp-BrowsrAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrowsrApp-BrowsrAppUITests/Pods-BrowsrApp-BrowsrAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrowsrApp-BrowsrAppUITests/Pods-BrowsrApp-BrowsrAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3687D168DD0E0FAAF44F6995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrowsrApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89893999AAEA407630DFA6A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrowsrApp-BrowsrAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B50302BAF8E8EC67D8389A98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrowsrApp/Pods-BrowsrApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrowsrApp/Pods-BrowsrApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrowsrApp/Pods-BrowsrApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7F2EA1E4C08B71B40BAB8D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrowsrAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		620915A829919D5500EBA3A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +416,7 @@
 			files = (
 				620915B429919D5500EBA3A8 /* ViewController.swift in Sources */,
 				620915B029919D5500EBA3A8 /* AppDelegate.swift in Sources */,
-				620915B229919D5500EBA3A8 /* SceneDelegate.swift in Sources */,
+				620915E32991B66300EBA3A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +588,7 @@
 		};
 		620915D729919D5700EBA3A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBF2EB076AD9DB0F93AA2E8 /* Pods-BrowsrApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +602,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +618,7 @@
 		};
 		620915D829919D5700EBA3A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F30D60084EFE9C82A508775 /* Pods-BrowsrApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +632,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +648,7 @@
 		};
 		620915DA29919D5700EBA3A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509E77AEEBEABB9EE33F0EFD /* Pods-BrowsrAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +669,7 @@
 		};
 		620915DB29919D5700EBA3A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D3FF0DEE83F9916A21B60C /* Pods-BrowsrAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +690,7 @@
 		};
 		620915DD29919D5700EBA3A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82FFB04AE1A89FC8BDA09D23 /* Pods-BrowsrApp-BrowsrAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +709,7 @@
 		};
 		620915DE29919D5700EBA3A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7D75E7C25620042237AF29 /* Pods-BrowsrApp-BrowsrAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,6 +766,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		620915DF2991AF0500EBA3A8 /* XCRemoteSwiftPackageReference "BrowsrLib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aadisss/BrowsrLib";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		620915E02991AF0500EBA3A8 /* BrowsrLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 620915DF2991AF0500EBA3A8 /* XCRemoteSwiftPackageReference "BrowsrLib" */;
+			productName = BrowsrLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 620915A429919D5400EBA3A8 /* Project object */;
 }
